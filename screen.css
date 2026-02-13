@@ -84,3 +84,33 @@ main {
     margin: 10px;
     padding: 0 0 0 40px;
 }
+
+.cta {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom:  60PX;
+}
+
+.cta input {
+  padding: 12px;
+  border: none;
+  width: 300px;
+  border-radius: 6px 0 0 6px;
+}
+
+.cta input[type="button"] {
+    background-color: rgb(223, 54, 54);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.cta-box {
+    background: #dcdcdc;       
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-flex;
+    gap: 0;
+}
