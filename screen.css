@@ -42,8 +42,44 @@ main {
     font-size: 48px;
 }
 
+
+.details ul {
+    width: fit-content;   
+    margin: 0 auto;       
+    text-align: left; 
+}
 .details ul li {
-    background: url('qrcode-solid.svg') no-repeat center left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0 0 0 40px;
+    
+}
+
+.details ul li.wf {
+    background: url('wifi.png') no-repeat center left;
+    background-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0 0 0 40px;
+}
+.details ul li.cl {
+    background: url('cloud.png') no-repeat center left ;
+    background-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0 0 0 40px;
+}
+.details ul li.qr {
+    background: url('qr.png') no-repeat center left ;
+    background-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0 0 0 40px;
+}
+
+.details ul li.pp {
+    background: url('Photopng.png') no-repeat center left ;
+    background-size: 20px;
     list-style-type: none;
     margin: 10px;
     padding: 0 0 0 40px;
